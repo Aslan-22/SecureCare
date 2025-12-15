@@ -1,0 +1,35 @@
+{% extends 'policies/base.html' %}
+
+{% block content %}
+<h3 class="mb-4">Admin Dashboard</h3>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card text-bg-primary mb-3">
+            <div class="card-body text-center">
+                <h5>Total Policies</h5>
+                {{ total }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card text-bg-success mb-3">
+            <div class="card-body text-center">
+                <h5>Active Policies</h5>
+                {{ active }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card text-bg-warning mb-3">
+            <div class="card-body text-center">
+                <h5>Under Review</h5>
+                {{ review }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

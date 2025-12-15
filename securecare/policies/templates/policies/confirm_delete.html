@@ -1,0 +1,15 @@
+<!--Delete Confirmation Page-->
+{% extends 'policies/base.html' %}
+
+{% block content %}
+<div class="card p-4">
+    <h4>Confirm Delete</h4>
+    <p>Are you sure you want to delete <strong>{{ policy.title }}</strong> ?</p>
+
+    <form method="POST">
+        {{ csrf_token }}
+        <button class="btn btn-danger">Delete</button>
+        <a href="{% url 'admin_panel' %}" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+{% endblock %}

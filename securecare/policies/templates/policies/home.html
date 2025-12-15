@@ -1,0 +1,25 @@
+{% extends 'policies/base.html' %}
+
+{% block content %}
+<h3>Active Policies</h3>
+
+<div class="row">
+    {% for policy in policies %}
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5>{{ policy.title }}</h5>
+                <p class="text-muted">{{ policy.category }}</p>
+                <p>{{ policy.description|truncatewords:200 }}</p>
+
+                <!-- Quiz Link -->
+                <a href="{% url 'take_quiz' policy.id %}"
+                   class="btn btn-outline-primary btn-sm mt-2">
+                    Take Quiz
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

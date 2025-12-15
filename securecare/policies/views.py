@@ -7,7 +7,7 @@ from django.db.models import Count
 # Home Page
 def home(request):
     policies = Policy.objects.filter(status='Active')
-    return render(request, 'policies/home.html', {'policies': policies})
+    return render(request, 'policies/index.html', {'policies': policies})
 
 # Admin Panel
 @login_required

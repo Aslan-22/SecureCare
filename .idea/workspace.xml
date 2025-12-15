@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb1d2851-e0fe-4733-8d19-4f91a2bbcca9" name="Changes" comment="SecureCare Django project. Add requirements.txt for Render deployment" />
+    <list default="true" id="fb1d2851-e0fe-4733-8d19-4f91a2bbcca9" name="Changes" comment="SecureCare Django project. Debug set to true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765760751099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SecureCare Django project. Debug set to true">
+      <option name="closed" value="true" />
+      <created>1765761350223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765761350223</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +149,8 @@
     <MESSAGE value="Second commit: SecureCare Django project. Changed home.html to index.html" />
     <MESSAGE value="SecureCare Django project. Prepare for Render deployment" />
     <MESSAGE value="SecureCare Django project. Add requirements.txt for Render deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="SecureCare Django project. Add requirements.txt for Render deployment" />
+    <MESSAGE value="SecureCare Django project. Debug set to true" />
+    <option name="LAST_COMMIT_MESSAGE" value="SecureCare Django project. Debug set to true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
